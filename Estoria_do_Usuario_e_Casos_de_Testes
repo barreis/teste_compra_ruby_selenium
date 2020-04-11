@@ -1,0 +1,48 @@
+Produto: Validação de um grande varejista online
+
+Estória do Usuário
+
+- Acessar o site  (Login)
+- Pesquisar um produto (Pesquisa)
+- Validar a busca (validar busca)
+- Adicionar o produto no carrinho (carrinho)
+- Validar se há o produto no carrinho (validar carrinho)
+
+
+Sprint 1:
+- Acessar o site
+- Pesquisar o produto
+- Validar o produto
+
+Casos de Testes
+
+Acessar o site:
+
+Dado que quero acessar o site da empresa X
+E passo a URL no code
+Então entro no site da empresa X
+
+Dado que quero acessar o site da empresa X
+E passo a URL do code errada
+Então retorna um erro
+
+
+Pesquisar produto:
+
+Dado que pesquiso sabonete no site
+E o site me retorna uma lista de itens
+Então eu encontro o sabonete
+
+Dado que pesquiso sabonete
+E adiciono um no carrinho
+Então terei 1 item no carrinho
+
+Validar o produto:
+
+Dado que selecionei um sabonete da lista
+E ele está no meu carrinho
+Então devo ter este item no carrinho
+
+Dado que selecionei, mais de um produto
+E eles estão no meu carrinho
+Então, devo validar esses itens no carrinho
